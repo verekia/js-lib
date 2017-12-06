@@ -1,5 +1,5 @@
 // @flow
 
-import cond from './cond'
+import cond from 'cond'
 
 module.exports = cond

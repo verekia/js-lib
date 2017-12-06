@@ -1,5 +1,5 @@
 // @flow
 
-import swit from './swit'
+import swit from 'swit'
 
 module.exports = swit
