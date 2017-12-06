@@ -2,4 +2,8 @@
 
 /* eslint-disable no-console */
 
-console.log('Hello')
+import swit from 'swit'
+import cond from 'cond'
+
+console.log(swit)
+console.log(cond)
