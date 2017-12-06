@@ -6,7 +6,7 @@
   "repository": "verekia/verekia-lib",
   "scripts": {
     "start": "babel-node src/consumer.js",
-    "build": "yarn lint-test && rimraf lib && babel src -d lib --ignore .test.js",
+    "build": "yarn lint-test && rimraf cond swit && babel src -d . --ignore .test.js",
     "lint": "eslint src",
     "test": "jest --coverage",
     "lint-test": "yarn lint && yarn test",
