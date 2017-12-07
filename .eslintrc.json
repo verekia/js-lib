@@ -17,11 +17,6 @@
   "env": {
     "jest": true
   },
-  "settings": {
-    "import/resolver": {
-      "babel-module": {}
-    }
-  },
   "rules": {
     "no-unexpected-multiline": 2,
     "flowtype-errors/show-errors": 2,

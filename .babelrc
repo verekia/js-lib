@@ -1,12 +1,4 @@
 {
-  "presets": [
-    "env",
-    "flow"
-  ],
-  "plugins": [
-    "transform-object-rest-spread",
-    ["module-resolver", {
-      "root": ["./src"]
-    }]
-  ]
+  "presets": ["env", "flow"],
+  "plugins": ["transform-object-rest-spread"]
 }
