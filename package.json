@@ -14,11 +14,8 @@
     "prepare": "yarn lint-test && yarn build"
   },
   "dependencies": {
-    "knex": "^0.14.2",
     "lodash.clonedeep": "^4.5.0",
-    "lodash.isequal": "^4.5.0",
-    "pg": "^7.4.0",
-    "uuid": "^3.1.0"
+    "lodash.isequal": "^4.5.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
