@@ -59,4 +59,5 @@ typings/
 
 /cond
 /swit
+/knexPgUpsertOne
 /consumer.js

@@ -5,7 +5,7 @@ import isEqual from 'lodash.isequal'
 
 import cond from '../cond'
 
-const swit = (val: any, cases: any[][], defaultVal: ?any) =>
+const swit = (val: any, cases: any[][], defaultVal?: any) =>
   cond(
     cases.map(c => {
       const newCase = cloneDeep(c)
