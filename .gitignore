@@ -60,4 +60,5 @@ typings/
 /cond
 /swit
 /knexPgUpsertOne
+/defineCols
 /consumer.js
