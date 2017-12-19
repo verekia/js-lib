@@ -62,4 +62,5 @@ typings/
 /knexPgUpsertOne
 /defineCols
 /throwError
+/tryCatch
 /consumer.js

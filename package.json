@@ -12,7 +12,7 @@
     "lint-test": "yon run lint && yon run test",
     "precommit": "yon run lint-test",
     "prepare": "yon run lint-test && yon run build",
-    "postpublish": "rimraf cond swit defineCols throwError knexPgUpsertOne"
+    "postpublish": "rimraf cond swit defineCols throwError tryCatch knexPgUpsertOne"
   },
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",

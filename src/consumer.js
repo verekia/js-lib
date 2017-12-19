@@ -1,9 +1,7 @@
 // @flow
 
+import tryCatch from './tryCatch'
+
 /* eslint-disable no-console */
 
-import swit from './swit'
-import cond from './cond'
-
-console.log(swit('BAR', [['FOO', () => 'foo'], [() => 'BAR', 'bar']], () => 'def'))
-console.log(cond([[true, 'hi'], [true, 'hi2']], 'def'))
+console.log(tryCatch(() => 3, ex => console.error(ex), () => console.log('finally')))
