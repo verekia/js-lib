@@ -61,4 +61,5 @@ typings/
 /swit
 /knexPgUpsertOne
 /defineCols
+/throwError
 /consumer.js
