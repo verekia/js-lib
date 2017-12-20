@@ -63,4 +63,5 @@ typings/
 /defineCols
 /throwError
 /tryCatch
+/createPgKnex
 /consumer.js

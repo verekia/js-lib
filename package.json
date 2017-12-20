@@ -12,12 +12,14 @@
     "lint-test": "yon run lint && yon run test",
     "precommit": "yon run lint-test",
     "prepare": "yon run lint-test && yon run build",
-    "postpublish": "rimraf cond swit defineCols throwError tryCatch knexPgUpsertOne"
+    "postpublish": "rimraf cond swit defineCols throwError tryCatch createPgKnex knexPgUpsertOne"
   },
   "dependencies": {
+    "knex": "^0.14.2",
     "lodash.clonedeep": "^4.5.0",
     "lodash.isequal": "^4.5.0",
-    "lodash.keyby": "^4.6.0"
+    "lodash.keyby": "^4.6.0",
+    "pg": "^7.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
