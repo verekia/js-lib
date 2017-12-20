@@ -8,6 +8,7 @@ const dropAllAndDestroyKnexForTesting = async (knex: Function) => {
   }
   await knex.raw('DROP SCHEMA public CASCADE; CREATE SCHEMA public;')
   knex.destroy()
+  return null
 }
 
 export default dropAllAndDestroyKnexForTesting
