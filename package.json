@@ -8,13 +8,14 @@
     "start": "babel-node src/consumer.js",
     "build": "yon run lint-test && rimraf cond swit && babel src -d . --ignore .test.js",
     "lint": "eslint src",
-    "test": "jest --coverage",
+    "test": "jest --coverage -i",
     "lint-test": "yon run lint && yon run test",
     "precommit": "yon run lint-test",
     "prepare": "yon run lint-test && yon run build",
-    "postpublish": "rimraf cond swit defineCols throwError tryCatch createPgKnex knexPgUpsertOne"
+    "postpublish": "rimraf cond swit defineCols throwError tryCatch createPgKnex createPgKnexAndDropAllForTesting dropAllAndDestroyKnexForTesting getPgTables knexPgUpsertOne"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
     "knex": "^0.14.2",
     "lodash.clonedeep": "^4.5.0",
     "lodash.isequal": "^4.5.0",

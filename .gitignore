@@ -64,4 +64,7 @@ typings/
 /throwError
 /tryCatch
 /createPgKnex
+/getPgTables
+/createPgKnexAndDropAllForTesting
+/dropAllAndDestroyKnexForTesting
 /consumer.js
