@@ -24,4 +24,9 @@ test(null, () => {
     bla: 'bla',
     blo: 'blo',
   })
+  expect(() => defineCols(['foo', 'id'])).toThrow()
+  expect(() => defineCols(['foo', 'created_at'])).toThrow()
+  expect(() => defineCols(['foo', 'createdAt'])).toThrow()
+  expect(() => defineCols(['foo', 'updated_at'])).toThrow()
+  expect(() => defineCols(['foo', 'updatedAt'])).toThrow()
 })
